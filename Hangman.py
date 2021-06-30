@@ -1,5 +1,5 @@
 ﻿import random
-
+import winsound
 name = input("Hey, What is your name? ")
 
 print("Good luck", name,", I hope you win!")
@@ -60,3 +60,4 @@ while tries > 0:
         else:
             print("you lost, you have no more tries")
 
+winsoun.Playsound("lost.wav",winsound.SND_FILENAME)
